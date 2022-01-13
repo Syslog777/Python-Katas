@@ -26,7 +26,7 @@ querystring = {"interval":"5min","function":"TIME_SERIES_INTRADAY","symbol":"MSF
 
 headers = {
     'x-rapidapi-host': "alpha-vantage.p.rapidapi.com",
-    'x-rapidapi-key': "c70606e85cmsh84b8593f44d0a70p1b2786jsnc31402d98ec1"
+    'x-rapidapi-key': ""
     }
 
 response = requests.request("GET", url, headers=headers, params=querystring)
